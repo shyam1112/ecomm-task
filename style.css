@@ -293,7 +293,7 @@ p {
         border-radius: 7px;
         display: flex;
         flex-direction: column;
-        height: 300px;
+        height: 350px;
         align-items: center;
     }
 
@@ -308,8 +308,8 @@ p {
     #feature .fe-box img {
         margin-top: 5px;
         border-radius: 15px;
-        width:170px;
-        height:170px;
+        width:200px;
+        height:200px;
     }
 }
 
@@ -619,14 +619,21 @@ p {
 }
 
 .company-logo-img {
-    /* margin: 0px 20px; */
+    width: 100px;
+    height: 100px;
 }
 
 @media (max-width:1200px) {
     .company-logo {
         margin: 20px 0px;
-        justify-content: space-between;
+        justify-content: normal;
         display: flex;
+        overflow-x: scroll;
+    }
+    .company-logo img{
+        width: 200px;
+        height: 200px;
+  
     }
 
 }
@@ -666,6 +673,7 @@ p:hover {
         grid-template-columns: auto auto;
         justify-content: normal;
         gap: 30px;
+        font-size: medium;
     }
 }
 
