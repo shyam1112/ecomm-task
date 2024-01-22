@@ -1,7 +1,35 @@
 * {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#toparrow{
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+#toparrow img:hover{
+    width: 50px;
+    height: 50px;
+}
+
+#toparrow img{
+    width: 60px;
+    height: 60px;
+}
+
+.ann-1{
+    background-color: skyblue;
+    
+}
+.ann-1 h3{
+    text-align: center;
+    padding: 15px;
+    align-items: center;    
 }
 
 .logo {
@@ -19,6 +47,7 @@
     box-shadow: 0px 5px 15px rgb(221, 227, 231);
     margin: auto;
     position: sticky;
+    top: 0;
 }
 
 .header-icon a img {
